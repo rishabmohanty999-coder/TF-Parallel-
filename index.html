@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="VANTA — a cinematic digital motion experience."
+    >
+
+    <meta name="theme-color" content="#080808">
+
+    <title>VANTA — Digital Motion Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- ======================================================
+         PAGE LOADER
+    ======================================================= -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader__top">
+
+            <span>VANTA®</span>
+
+            <span>LOADING EXPERIENCE</span>
+
+        </div>
+
+
+        <div class="loader__center">
+
+            <span class="loader__number">00</span>
+
+        </div>
+
+
+        <div class="loader__bottom">
+
+            <div class="loader__line">
+
+                <div class="loader__progress"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         GLOBAL CURSOR
+    ======================================================= -->
+
+    <div class="cursor" aria-hidden="true">
+
+        <span class="cursor__text"></span>
+
+    </div>
+
+
+    <!-- ======================================================
+         GLOBAL FIXED ELEMENTS
+    ======================================================= -->
+
+    <div class="page-progress">
+
+        <div class="page-progress__fill"></div>
+
+    </div>
+
+
+    <div class="global-grain"></div>
+
+    <div class="global-grid"></div>
+
+
+    <!-- ======================================================
+         NAVIGATION
+    ======================================================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo magnetic">
+
+            <span class="logo__icon"></span>
+
+            <span>VANTA</span>
+
+        </a>
+
+
+        <div class="header__center">
+
+            <span>INDEPENDENT DIGITAL STUDIO</span>
+
+            <span>EST. 2026</span>
+
+        </div>
+
+
+        <nav class="nav">
+
+            <a href="#manifesto" class="magnetic">
+                ABOUT
+            </a>
+
+            <a href="#work" class="magnetic">
+                WORK
+            </a>
+
+            <a href="#contact" class="nav__button magnetic cursor-target" data-cursor="OPEN">
+                START A PROJECT
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ======================================================
+         SIDE UI
+    ======================================================= -->
+
+    <aside class="side-index">
+
+        <span class="side-index__active">01</span>
+
+        <div class="side-index__line">
+
+            <div></div>
+
+        </div>
+
+        <span>05</span>
+
+    </aside>
+
+
+    <div class="scroll-indicator">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <div class="scroll-indicator__line"></div>
+
+    </div>
+
+
+    <!-- ======================================================
+         MAIN
+    ======================================================= -->
+
+    <main>
+
+
+        <!-- ==================================================
+             HERO
+        =================================================== -->
+
+        <section
+            class="hero section-track"
+            id="home"
+            data-section="01"
+        >
+
+            <!-- FAR PARALLAX -->
+
+            <div
+                class="parallax hero__far"
+                data-speed="0.08"
+            >
+
+                <div class="hero__huge-index">
+                    01
+                </div>
+
+                <div class="hero__ambient hero__ambient--one"></div>
+
+                <div class="hero__ambient hero__ambient--two"></div>
+
+            </div>
+
+
+            <!-- MID PARALLAX -->
+
+            <div
+                class="parallax hero__mid"
+                data-speed="0.18"
+            >
+
+                <div class="hero__vertical-line hero__vertical-line--one"></div>
+
+                <div class="hero__vertical-line hero__vertical-line--two"></div>
+
+                <div class="hero__vertical-line hero__vertical-line--three"></div>
+
+                <span class="coordinate coordinate--one">
+                    20°17'45.9"N
+                </span>
+
+                <span class="coordinate coordinate--two">
+                    85°49'28.2"E
+                </span>
+
+            </div>
+
+
+            <!-- NEAR PARALLAX -->
+
+            <div
+                class="parallax hero__near"
+                data-speed="0.34"
+            >
+
+                <div class="floating-tag floating-tag--one">
+
+                    <span>01</span>
+
+                    MOTION
+
+                </div>
+
+
+                <div class="floating-tag floating-tag--two">
+
+                    <span>02</span>
+
+                    DEPTH
+
+                </div>
+
+
+                <div class="floating-tag floating-tag--three">
+
+                    <span>03</span>
+
+                    FORM
+
+                </div>
+
+            </div>
+
+
+            <div class="hero__content">
+
+                <div class="hero__meta reveal">
+
+                    <span>
+                        DIGITAL EXPERIENCES
+                    </span>
+
+                    <span>
+                        / BUILT DIFFERENTLY
+                    </span>
+
+                </div>
+
+
+                <h1 class="hero__title">
+
+                    <span class="hero-title-line title-reveal">
+
+                        <span>WE</span>
+
+                        <span class="hero__micro-copy">
+                            DESIGNING THE<br>
+                            UNEXPECTED
+                        </span>
+
+                    </span>
+
+
+                    <span class="hero-title-line hero-title-line--indent title-reveal">
+
+                        CREATE
+
+                    </span>
+
+
+                    <span class="hero-title-line hero-title-line--last title-reveal">
+
+                        <span class="hero__circle-mark">
+
+                            <span>↗</span>
+
+                        </span>
+
+                        <span class="outline-word">
+                            IMPACT
+                        </span>
+
+                    </span>
+
+                </h1>
+
+
+                <div class="hero__footer reveal">
+
+                    <p>
+                        We build expressive digital environments
+                        where typography, motion and technology
+                        operate as one system.
+                    </p>
+
+
+                    <div class="hero__availability">
+
+                        <span class="availability-dot"></span>
+
+                        AVAILABLE FOR SELECTED PROJECTS
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             MANIFESTO
+        =================================================== -->
+
+        <section
+            class="manifesto section-track"
+            id="manifesto"
+            data-section="02"
+        >
+
+            <div
+                class="parallax manifesto__far"
+                data-speed="0.06"
+            >
+
+                <span class="manifesto__ghost">
+                    THINK
+                </span>
+
+            </div>
+
+
+            <div
+                class="parallax manifesto__mid"
+                data-speed="0.16"
+            >
+
+                <div class="manifesto__square manifesto__square--one"></div>
+
+                <div class="manifesto__square manifesto__square--two"></div>
+
+                <div class="manifesto__square manifesto__square--three"></div>
+
+            </div>
+
+
+            <div class="section-container">
+
+                <div class="section-label reveal">
+
+                    <span>02</span>
+
+                    <span>MANIFESTO</span>
+
+                    <span>OUR APPROACH</span>
+
+                </div>
+
+
+                <div class="manifesto__statement">
+
+                    <p class="manifesto__intro reveal">
+
+                        THE INTERNET DOESN'T NEED
+
+                    </p>
+
+
+                    <h2 class="manifesto__title">
+
+                        <span class="text-line">
+
+                            <span class="word-reveal">
+                                MORE
+                            </span>
+
+                            <span class="manifesto__small-text">
+                                SAFE<br>
+                                BORING<br>
+                                PREDICTABLE
+                            </span>
+
+                        </span>
+
+
+                        <span class="text-line">
+
+                            <span class="outline-word word-reveal">
+                                WEBSITES.
+                            </span>
+
+                        </span>
+
+
+                        <span class="text-line manifesto__accent-line">
+
+                            <span class="manifesto__arrow">
+                                ↘
+                            </span>
+
+                            <span class="word-reveal">
+                                IT NEEDS
+                            </span>
+
+                        </span>
+
+
+                        <span class="text-line">
+
+                            <span class="lime-word word-reveal">
+                                EXPERIENCES.
+                            </span>
+
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <div class="manifesto__bottom">
+
+                    <div class="manifesto__index reveal">
+
+                        <span>VANTA®</span>
+
+                        <span>PHILOSOPHY / 2026</span>
+
+                    </div>
+
+
+                    <div class="manifesto__copy reveal">
+
+                        <p>
+                            We reject decoration without intention.
+                            Every transition has rhythm. Every layer
+                            has depth. Every interaction has a reason.
+                        </p>
+
+
+                        <p>
+                            Our work exists between design and engineering —
+                            where visual systems become physical, responsive
+                            and impossible to ignore.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             MARQUEE
+        =================================================== -->
+
+        <section class="ticker">
+
+            <div class="ticker__track">
+
+                <span>DIGITAL DIRECTION</span>
+
+                <i>✦</i>
+
+                <span>CREATIVE DEVELOPMENT</span>
+
+                <i>✦</i>
+
+                <span>MOTION SYSTEMS</span>
+
+                <i>✦</i>
+
+                <span>INTERACTIVE DESIGN</span>
+
+                <i>✦</i>
+
+                <span>DIGITAL DIRECTION</span>
+
+                <i>✦</i>
+
+                <span>CREATIVE DEVELOPMENT</span>
+
+                <i>✦</i>
+
+                <span>MOTION SYSTEMS</span>
+
+                <i>✦</i>
+
+                <span>INTERACTIVE DESIGN</span>
+
+                <i>✦</i>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SELECTED WORK
+        =================================================== -->
+
+        <section
+            class="work section-track"
+            id="work"
+            data-section="03"
+        >
+
+            <div
+                class="parallax work__far"
+                data-speed="0.05"
+            >
+
+                <div class="work__ghost-number">
+                    03
+                </div>
+
+            </div>
+
+
+            <div class="section-container">
+
+                <div class="section-label reveal">
+
+                    <span>03</span>
+
+                    <span>SELECTED WORK</span>
+
+                    <span>2024 — 2026</span>
+
+                </div>
+
+
+                <div class="work__heading">
+
+                    <h2>
+
+                        <span class="title-reveal">
+                            PROJECTS
+                        </span>
+
+                        <span class="outline-word title-reveal">
+                            WITH
+                        </span>
+
+                        <span class="title-reveal">
+                            A PULSE.
+                        </span>
+
+                    </h2>
+
+
+                    <p class="reveal">
+
+                        Selected experiments in digital identity,
+                        interaction and motion.
+
+                    </p>
+
+                </div>
+
+
+                <div class="projects">
+
+
+                    <!-- PROJECT ONE -->
+
+                    <article
+                        class="project project--large cursor-target"
+                        data-cursor="VIEW"
+                    >
+
+                        <div class="project__media">
+
+                            <div
+                                class="project__visual project__visual--one parallax-media"
+                                data-media-speed="0.12"
+                            >
+
+                                <div class="visual-one__grid"></div>
+
+                                <div class="visual-one__sphere">
+
+                                    <span></span>
+
+                                </div>
+
+
+                                <div class="visual-one__text">
+
+                                    <span>FORM</span>
+
+                                    <span>001</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="project__overlay">
+
+                                <span>01</span>
+
+                                <span>2026</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project__info">
+
+                            <h3>
+                                FORMA
+                            </h3>
+
+                            <div>
+
+                                <span>ART DIRECTION</span>
+
+                                <span>INTERACTIVE</span>
+
+                                <span>DEVELOPMENT</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT TWO -->
+
+                    <article
+                        class="project project--small project--offset cursor-target"
+                        data-cursor="VIEW"
+                    >
+
+                        <div class="project__media">
+
+                            <div
+                                class="project__visual project__visual--two parallax-media"
+                                data-media-speed="0.18"
+                            >
+
+                                <div class="visual-two__word">
+                                    VOID
+                                </div>
+
+                                <div class="visual-two__circle"></div>
+
+                                <div class="visual-two__code">
+
+                                    SYS / 22<br>
+                                    OBJECT / 04<br>
+                                    STATE / ACTIVE
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="project__overlay">
+
+                                <span>02</span>
+
+                                <span>2025</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project__info">
+
+                            <h3>
+                                VOID/22
+                            </h3>
+
+                            <div>
+
+                                <span>DIGITAL IDENTITY</span>
+
+                                <span>MOTION</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT THREE -->
+
+                    <article
+                        class="project project--small cursor-target"
+                        data-cursor="VIEW"
+                    >
+
+                        <div class="project__media">
+
+                            <div
+                                class="project__visual project__visual--three parallax-media"
+                                data-media-speed="0.15"
+                            >
+
+                                <div class="visual-three__lines"></div>
+
+                                <div class="visual-three__center">
+
+                                    <span>N</span>
+
+                                </div>
+
+                                <span class="visual-three__label">
+                                    NEW SIGNAL
+                                </span>
+
+                            </div>
+
+
+                            <div class="project__overlay">
+
+                                <span>03</span>
+
+                                <span>2025</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project__info">
+
+                            <h3>
+                                SIGNAL
+                            </h3>
+
+                            <div>
+
+                                <span>EXPERIENCE</span>
+
+                                <span>WEBGL</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT FOUR -->
+
+                    <article
+                        class="project project--large cursor-target"
+                        data-cursor="VIEW"
+                    >
+
+                        <div class="project__media">
+
+                            <div
+                                class="project__visual project__visual--four parallax-media"
+                                data-media-speed="0.1"
+                            >
+
+                                <div class="visual-four__circle visual-four__circle--one"></div>
+
+                                <div class="visual-four__circle visual-four__circle--two"></div>
+
+                                <div class="visual-four__circle visual-four__circle--three"></div>
+
+
+                                <div class="visual-four__title">
+
+                                    <span>RAW</span>
+
+                                    <span>MATTER</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="project__overlay">
+
+                                <span>04</span>
+
+                                <span>2024</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project__info">
+
+                            <h3>
+                                MATTER
+                            </h3>
+
+                            <div>
+
+                                <span>CREATIVE CODE</span>
+
+                                <span>EXPERIMENTAL</span>
+
+                                <span>DESIGN</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             PROCESS
+        =================================================== -->
+
+        <section
+            class="process section-track"
+            data-section="04"
+        >
+
+            <div
+                class="parallax process__far"
+                data-speed="0.06"
+            >
+
+                <div class="process__ghost">
+                    PROCESS
+                </div>
+
+            </div>
+
+
+            <div
+                class="parallax process__mid"
+                data-speed="0.15"
+            >
+
+                <div class="process__cross process__cross--one">
+                    +
+                </div>
+
+                <div class="process__cross process__cross--two">
+                    +
+                </div>
+
+                <div class="process__cross process__cross--three">
+                    +
+                </div>
+
+            </div>
+
+
+            <div class="section-container">
+
+                <div class="section-label reveal">
+
+                    <span>04</span>
+
+                    <span>PROCESS</span>
+
+                    <span>HOW WE MOVE</span>
+
+                </div>
+
+
+                <div class="process__heading">
+
+                    <h2>
+
+                        <span class="title-reveal">
+                            NO
+                        </span>
+
+                        <span class="outline-word title-reveal">
+                            FORMULA.
+                        </span>
+
+                        <span class="lime-word title-reveal">
+                            JUST INTENT.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <div class="process-list">
+
+
+                    <div class="process-item cursor-target" data-cursor="01">
+
+                        <div class="process-item__number">
+                            01
+                        </div>
+
+                        <h3>
+                            QUESTION
+                        </h3>
+
+                        <p>
+                            We challenge the obvious answer before
+                            making anything.
+                        </p>
+
+                        <span class="process-item__arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+
+                    <div class="process-item cursor-target" data-cursor="02">
+
+                        <div class="process-item__number">
+                            02
+                        </div>
+
+                        <h3>
+                            DISTILL
+                        </h3>
+
+                        <p>
+                            Remove noise until only the strongest
+                            idea remains.
+                        </p>
+
+                        <span class="process-item__arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+
+                    <div class="process-item cursor-target" data-cursor="03">
+
+                        <div class="process-item__number">
+                            03
+                        </div>
+
+                        <h3>
+                            BUILD
+                        </h3>
+
+                        <p>
+                            Design and technology evolve together
+                            as one system.
+                        </p>
+
+                        <span class="process-item__arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+
+                    <div class="process-item cursor-target" data-cursor="04">
+
+                        <div class="process-item__number">
+                            04
+                        </div>
+
+                        <h3>
+                            DISRUPT
+                        </h3>
+
+                        <p>
+                            We polish until the experience feels
+                            inevitable.
+                        </p>
+
+                        <span class="process-item__arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CONTACT
+        =================================================== -->
+
+        <section
+            class="contact section-track"
+            id="contact"
+            data-section="05"
+        >
+
+            <div
+                class="parallax contact__far"
+                data-speed="0.07"
+            >
+
+                <span class="contact__ghost">
+                    HELLO
+                </span>
+
+            </div>
+
+
+            <div
+                class="parallax contact__mid"
+                data-speed="0.16"
+            >
+
+                <div class="contact__line contact__line--one"></div>
+
+                <div class="contact__line contact__line--two"></div>
+
+            </div>
+
+
+            <div
+                class="parallax contact__near"
+                data-speed="0.3"
+            >
+
+                <span class="contact-coordinate contact-coordinate--one">
+                    20.2961° N
+                </span>
+
+                <span class="contact-coordinate contact-coordinate--two">
+                    85.8245° E
+                </span>
+
+            </div>
+
+
+            <div class="contact__content">
+
+                <div class="contact__meta reveal">
+
+                    <span>05 / CONTACT</span>
+
+                    <span>HAVE SOMETHING IN MIND?</span>
+
+                </div>
+
+
+                <h2 class="contact__title">
+
+                    <span class="title-reveal">
+                        LET'S MAKE
+                    </span>
+
+                    <span class="outline-word title-reveal">
+                        SOMETHING
+                    </span>
+
+                    <span class="lime-word title-reveal">
+                        IMPOSSIBLE.
+                    </span>
+
+                </h2>
+
+
+                <a
+                    href="mailto:hello@vanta.studio"
+                    class="contact__button magnetic cursor-target"
+                    data-cursor="SEND"
+                >
+
+                    <span>
+                        START A CONVERSATION
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <footer class="footer">
+
+                <div>
+
+                    <span>VANTA®</span>
+
+                    <span>
+                        DIGITAL STUDIO / 2026
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <a href="#">
+                        INSTAGRAM
+                    </a>
+
+                    <a href="#">
+                        BEHANCE
+                    </a>
+
+                    <a href="#">
+                        LINKEDIN
+                    </a>
+
+                </div>
+
+
+                <a href="#home">
+
+                    BACK TO TOP ↑
+
+                </a>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
